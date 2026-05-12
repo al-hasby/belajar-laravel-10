@@ -11,21 +11,12 @@ class Post extends Model
 {
     use HasFactory;
 
-    /**
-     * fillable
-     *
-     * @var array
-     */
     protected $fillable = [
         'image',
         'title',
         'content',
     ];
-/**
-     * image
-     *
-     * @return Attribute
-     */
+
 
     protected function image(): Attribute
     {
